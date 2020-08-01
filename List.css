@@ -1,0 +1,130 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+  background: #efefef;
+}
+.heading {
+  background: #ffffff;
+  height: 40px;
+  border-bottom: 5px solid rgba(51, 51, 51, 0.4);
+  color: #333333;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 25px;
+}
+.btn-div {
+  float: right;
+}
+.btn {
+  width: 220px;
+  display: block;
+  background: #72c3dc;
+  font-size: 14px;
+  color: #fff;
+  margin: 30px;
+  border: 1px solid #2b8ead;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 5px 0px #2b8ead;
+  box-shadow: 0px 5px 0px #2b8ead;
+  text-shadow: 1px 1px 1px #2b8ead;
+  padding: 0.8em 2em;
+  overflow: visible;
+}
+section {
+  overflow: hidden;
+  min-height: 200px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.list {
+  display: inline-block;
+  padding: 0.4em 0.9em;
+  margin: -3px;
+  font-size: 6em;
+  color: #fff;
+  font-weight: 100;
+  list-style: none;
+}
+.item-3,
+.item-5,
+.item-9 {
+  background: #2f454e;
+}
+.item-2,
+.item-4 {
+  background: #2b8ead;
+}
+.item-1,
+.item-8 {
+  background: #6f98a8;
+}
+.item-6,
+.item-7 {
+  background: #bfbfbf;
+}
+
+@media screen and (min-width: 360px) and (max-width: 950px) {
+  .container {
+    width: 100%;
+    background: none;
+  }
+  .heading {
+    background: #333;
+    color: #fff;
+  }
+  .btn-div {
+    float: none;
+    margin: 1em;
+    width: auto;
+    border: 0;
+    text-align: center;
+  }
+  .btn {
+    overflow: visible;
+    padding: 15px 25px;
+    display: inline-block;
+    margin: 10px;
+    width: 120px;
+  }
+  .list {
+    display: block;
+    margin: 0;
+    color: #333333;
+    font-size: 3em;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+  }
+  .item-1,
+  .item-2,
+  .item-3,
+  .item-4,
+  .item-5,
+  .item-6,
+  .item-7,
+  .item-8,
+  .item-9 {
+    background: #efefef;
+    margin-bottom: 10px;
+  }
+  .item-3,
+  .item-5,
+  .item-9 {
+    border-left: 10px solid #2f454e;
+  }
+  .item-2,
+  .item-4 {
+    border-left: 10px solid #2b8ead;
+  }
+  .item-1,
+  .item-8 {
+    border-left: 10px solid #6f98a8;
+  }
+  .item-6,
+  .item-7 {
+    border-left: 10px solid #bfbfbf;
+  }
+}
